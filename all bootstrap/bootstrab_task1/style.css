@@ -1,0 +1,12 @@
+.purple{ 
+background-color:rgba(82, 82, 187, 0.918); 
+}
+.gray{ 
+    color: gray;
+} 
+.gray a:hover{ 
+    color: gray;
+}
+.bg-gray{ 
+    background-color: rgb(238, 238, 238);
+}

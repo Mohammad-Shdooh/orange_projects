@@ -1,0 +1,142 @@
+
+.img-setting { 
+    width: 200px;
+    border-radius: 100px; 
+
+    
+   
+}  
+.img-location{  
+    
+    padding-left: 40vw;
+    padding-top: 10vh;
+}
+.txt-location { 
+    padding-left: 35vw;
+    
+}
+.txt-para{ 
+    text-align:inherit ;
+    padding-left: 90px;
+}
+.collapse ul a:hover{ 
+    font-size: 24px; 
+    background-color: orange;
+}
+.hovarh:hover{ 
+    font-size: 34px; 
+    background-color: orange;
+}
+.card-media{ 
+       
+    margin-left: 30%;
+}
+/* .skills{ 
+   width: 500px;
+   margin: 60px auto;
+   color: white;
+}
+.skills li{ 
+    margin-top: 20px 0;
+} */
+.bar{ 
+    background: #353b48;
+    display: block; 
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    /* overflow: hidden; */
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{ 
+    height: 2px; 
+    float: left;
+    background: orange;
+}
+.html{ 
+    width: 90%;
+    animation: html 2s ;
+
+}
+.css{ 
+    width: 85%;
+    animation: css 2s ;
+}
+.Bootstrap{ 
+    width: 90%;
+    animation: Bootstrap 2s ;
+}
+.Computer-skills{ 
+    width: 95%;
+    animation: Computer-skills 2s;
+}
+.ORGANIZING-EVENTS{ 
+    width: 75%;
+    animation: ORGANIZING-EVENTS 2s ;
+}
+
+@keyframes html { 
+    0%{ 
+        width:0%
+    }
+    100%{ 
+        width: 90%;
+    }
+}
+@keyframes css { 
+    0%{ 
+        width:0%
+    }
+    100%{ 
+        width: 85%;
+    }
+}
+@keyframes Bootstrap { 
+    0%{ 
+        width:0%
+    }
+    100%{ 
+        width: 90%;
+    }
+}
+@keyframes Computer-skills { 
+    0%{ 
+        width:0%
+    }
+    100%{ 
+        width: 95%;
+    }
+}
+@keyframes ORGANIZING-EVENTS { 
+    0%{ 
+        width:0%
+    }
+    100%{ 
+        width: 75%;
+    }
+}
+
+
+
+@media (max-width:991px) {
+    .img-location{  
+    
+        padding-left: 30vw;
+        padding-top: 10vh;
+    }
+    .txt-size{ 
+        font-size: medium; 
+        font-weight: bolder;
+    } 
+   .txt-para{ 
+       padding-left: 15px; 
+       font-size: 10px;
+   } 
+   .card-media{ 
+       
+       margin-left: 50px; 
+       margin-right: 50px;
+   }
+   
+  
+}
