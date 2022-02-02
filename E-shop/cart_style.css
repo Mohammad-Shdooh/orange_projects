@@ -1,0 +1,57 @@
+.d-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap :25px;
+   
+}
+.imgsize img{ 
+    width:40%;
+}
+.margin{ 
+    margin-top:15px ;
+}
+.btn a{ 
+    text-decoration: none;
+    background-color: yellow;
+    color: inherit;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px ;
+     text-align: center;
+}
+.btn a:hover{ 
+    background-color: darkgoldenrod;
+
+}
+.card{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;    
+    box-shadow: 5px 5px 5px 5px ;
+    border-radius: 10px;
+}
+
+.check_card{ 
+    width: 30%;
+    background-color: gray;
+    border-radius: 10px;
+    color: ivory;
+    position: relative;
+    float: right;
+    right: 20px;
+    margin: 50px auto;
+}
+.check_card a{ 
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px ;
+     text-align: center;
+}
+.check_card a:hover{ 
+    background-color: darkgoldenrod;
+
+}
+.check_card p,a { 
+    padding-left: 35px;
+}
